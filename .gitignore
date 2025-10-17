@@ -1,0 +1,5 @@
+node_modules
+.VSCodeCounter
+database/json.sqlite
+log/log.txt
+config.env

@@ -1,0 +1,788 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\einko\\Documents\\PDM\\Pterodactyl-Discord-Manager",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2025-10-11 20:35:44",
+            "filesum": 121,
+            "codesum": 11350,
+            "commentsum": 1729,
+            "blanksum": 1150,
+            "statistics": {
+                ".md": {
+                    "code": 193,
+                    "comment": 6,
+                    "blank": 61
+                },
+                ".json": {
+                    "code": 3464,
+                    "comment": 0,
+                    "blank": 23
+                },
+                "": {
+                    "code": 25,
+                    "comment": 0,
+                    "blank": 7
+                },
+                ".env": {
+                    "code": 26,
+                    "comment": 1,
+                    "blank": 2
+                },
+                ".txt": {
+                    "code": 269,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".js": {
+                    "code": 7298,
+                    "comment": 1720,
+                    "blank": 1046
+                },
+                ".html": {
+                    "code": 15,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".yml": {
+                    "code": 60,
+                    "comment": 2,
+                    "blank": 10
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": ".github\\ISSUE_TEMPLATE\\bug_report.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": ".github\\ISSUE_TEMPLATE\\feature_request.md"
+                },
+                {
+                    "blank": 10,
+                    "code": 60,
+                    "comment": 2,
+                    "filename": ".github\\workflows\\codeql-analysis.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 28,
+                    "code": 143,
+                    "comment": 18,
+                    "filename": "analogCommands\\countingGame.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 11,
+                    "filename": "analogCommands\\currencyGiver.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 50,
+                    "comment": 8,
+                    "filename": "analogCommands\\developer\\ban.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 56,
+                    "comment": 6,
+                    "filename": "analogCommands\\developer\\eval.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 7,
+                    "filename": "analogCommands\\developer\\reload.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 6,
+                    "filename": "analogCommands\\fun\\joke.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 29,
+                    "comment": 6,
+                    "filename": "bot.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 50,
+                    "comment": 15,
+                    "filename": "buttons\\giftCodeManager\\giftCodeDelete.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 37,
+                    "comment": 15,
+                    "filename": "buttons\\language\\de.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 37,
+                    "comment": 15,
+                    "filename": "buttons\\language\\en.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 37,
+                    "comment": 15,
+                    "filename": "buttons\\language\\fr.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 139,
+                    "comment": 39,
+                    "filename": "buttons\\minigames\\blackjack.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 55,
+                    "comment": 15,
+                    "filename": "buttons\\minigames\\triviaLauncher.js"
+                },
+                {
+                    "blank": 32,
+                    "code": 202,
+                    "comment": 29,
+                    "filename": "buttons\\minigames\\triviaPlayer\\triviaPlayer.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 14,
+                    "filename": "buttons\\minigames\\triviaPlayer\\triviaPlayerEasy.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 13,
+                    "filename": "buttons\\minigames\\triviaPlayer\\triviaPlayerHard.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 13,
+                    "filename": "buttons\\minigames\\triviaPlayer\\triviaPlayerMedium.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 144,
+                    "comment": 26,
+                    "filename": "buttons\\minigames\\zahlenRaten.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 36,
+                    "comment": 14,
+                    "filename": "buttons\\runtimeOverride\\cancel.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 17,
+                    "filename": "buttons\\runtimeOverride\\continue.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 62,
+                    "comment": 20,
+                    "filename": "buttons\\serverManager\\deleteServer.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 87,
+                    "comment": 21,
+                    "filename": "buttons\\serverManager\\extendServer.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 65,
+                    "comment": 19,
+                    "filename": "buttons\\serverManager\\reinstallServer.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 61,
+                    "comment": 17,
+                    "filename": "buttons\\serverManager\\renameServer.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 96,
+                    "comment": 22,
+                    "filename": "buttons\\serverManager\\serverInfo.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 65,
+                    "comment": 19,
+                    "filename": "buttons\\serverManager\\startServer.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 65,
+                    "comment": 19,
+                    "filename": "buttons\\serverManager\\stopServer.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 90,
+                    "comment": 17,
+                    "filename": "buttons\\serverManagerPagination\\nextServerPage.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 89,
+                    "comment": 18,
+                    "filename": "buttons\\serverManagerPagination\\previousServerPage.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 78,
+                    "comment": 18,
+                    "filename": "buttons\\shopManager\\addServerItemConfirm.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 74,
+                    "comment": 21,
+                    "filename": "buttons\\shopManager\\addShopItem.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 40,
+                    "comment": 18,
+                    "filename": "buttons\\shopManager\\addShopItemCancel.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 61,
+                    "comment": 19,
+                    "filename": "buttons\\shopManager\\addShopItemConfirm.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 92,
+                    "comment": 22,
+                    "filename": "buttons\\shopManager\\addShopItemDataConfirm.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 48,
+                    "comment": 18,
+                    "filename": "buttons\\shopManager\\deleteShopItem.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 121,
+                    "comment": 14,
+                    "filename": "classes\\axios.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 5,
+                    "filename": "classes\\axiosDataGenerator.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "classes\\boosterManager.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 3,
+                    "filename": "classes\\cacheManager.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 35,
+                    "comment": 13,
+                    "filename": "classes\\canvasPresets.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 69,
+                    "comment": 19,
+                    "filename": "classes\\dataBaseInterface.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 61,
+                    "comment": 13,
+                    "filename": "classes\\economyManager.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 7,
+                    "filename": "classes\\emojiManager.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 42,
+                    "comment": 11,
+                    "filename": "classes\\giftCodeManager.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 8,
+                    "filename": "classes\\logManager.js"
+                },
+                {
+                    "blank": 82,
+                    "code": 474,
+                    "comment": 114,
+                    "filename": "classes\\panelManager.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 3,
+                    "filename": "classes\\passwordGenerator.js"
+                },
+                {
+                    "blank": 28,
+                    "code": 69,
+                    "comment": 31,
+                    "filename": "classes\\seasonpassmanager.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 33,
+                    "comment": 9,
+                    "filename": "classes\\translationManager.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 30,
+                    "comment": 9,
+                    "filename": "classes\\utilityCollection.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 88,
+                    "comment": 17,
+                    "filename": "commands\\accountManager.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 83,
+                    "comment": 22,
+                    "filename": "commands\\addCoins.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 133,
+                    "comment": 42,
+                    "filename": "commands\\balance.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 37,
+                    "comment": 16,
+                    "filename": "commands\\coinConversion.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 47,
+                    "comment": 17,
+                    "filename": "commands\\coinLeaderboard.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 147,
+                    "comment": 29,
+                    "filename": "commands\\coinTransfer.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 71,
+                    "comment": 16,
+                    "filename": "commands\\countingChannel.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 83,
+                    "comment": 19,
+                    "filename": "commands\\giftcodeManager.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 56,
+                    "comment": 16,
+                    "filename": "commands\\language.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 75,
+                    "comment": 20,
+                    "filename": "commands\\mailSwitcher.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 72,
+                    "comment": 17,
+                    "filename": "commands\\minigames.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 41,
+                    "comment": 17,
+                    "filename": "commands\\ping.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 107,
+                    "comment": 22,
+                    "filename": "commands\\redeem.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 84,
+                    "comment": 19,
+                    "filename": "commands\\removeCoins.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 119,
+                    "comment": 18,
+                    "filename": "commands\\serverManager.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 135,
+                    "comment": 25,
+                    "filename": "commands\\setServerRuntime.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 90,
+                    "comment": 23,
+                    "filename": "commands\\shop.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 103,
+                    "comment": 26,
+                    "filename": "commands\\shopManager.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 26,
+                    "comment": 1,
+                    "filename": "config.env"
+                },
+                {
+                    "blank": 10,
+                    "code": 53,
+                    "comment": 4,
+                    "filename": "CONTRIBUTING.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 10,
+                    "filename": "cronJobs\\dailyReset.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 110,
+                    "comment": 23,
+                    "filename": "cronJobs\\dailyRuntime.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 8,
+                    "filename": "cronJobs\\partnerText.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "database\\.gitKeep"
+                },
+                {
+                    "filename": "database\\json.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 33,
+                    "comment": 10,
+                    "filename": "events\\analogCreate.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 66,
+                    "comment": 14,
+                    "filename": "events\\commandDistributor.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 9,
+                    "filename": "events\\loadInteractions.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "express\\dashboard\\index.html"
+                },
+                {
+                    "blank": 15,
+                    "code": 67,
+                    "comment": 7,
+                    "filename": "express\\dashboard\\scripts\\authenticator.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 1,
+                    "filename": "express\\routers\\auth.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "express\\routers\\refresh.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "express\\server.js"
+                },
+                {
+                    "filename": "fonts\\.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "fonts\\.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 57,
+                    "code": 390,
+                    "comment": 1,
+                    "filename": "lib\\blackjackEngine.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "LICENSE"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "log\\.gitKeep"
+                },
+                {
+                    "blank": 1,
+                    "code": 269,
+                    "comment": 0,
+                    "filename": "log\\log.txt"
+                },
+                {
+                    "blank": 45,
+                    "code": 121,
+                    "comment": 16,
+                    "filename": "managers\\manager.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 80,
+                    "comment": 18,
+                    "filename": "modals\\addCodeItemModal.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 72,
+                    "comment": 18,
+                    "filename": "modals\\addServerItemDataModal.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 63,
+                    "comment": 18,
+                    "filename": "modals\\addServerItemModal.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 78,
+                    "comment": 20,
+                    "filename": "modals\\addShopItemModal.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 20,
+                    "filename": "modals\\creationModal.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 85,
+                    "comment": 21,
+                    "filename": "modals\\linkModal.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 44,
+                    "comment": 18,
+                    "filename": "modals\\renameModal.js"
+                },
+                {
+                    "blank": 22,
+                    "code": 2452,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 36,
+                    "code": 94,
+                    "comment": 2,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "SECURITY.md"
+                },
+                {
+                    "blank": 9,
+                    "code": 36,
+                    "comment": 21,
+                    "filename": "select\\accountManager\\accountSelect.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 84,
+                    "comment": 25,
+                    "filename": "select\\accountManager\\claimBoosterReward.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 51,
+                    "comment": 21,
+                    "filename": "select\\accountManager\\createAccount.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 94,
+                    "comment": 16,
+                    "filename": "select\\accountManager\\deleteAccount.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 47,
+                    "comment": 21,
+                    "filename": "select\\accountManager\\linkAccount.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 53,
+                    "comment": 21,
+                    "filename": "select\\accountManager\\resetPassword.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 64,
+                    "comment": 22,
+                    "filename": "select\\giftCodeManager\\addGiftCode.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 46,
+                    "comment": 16,
+                    "filename": "select\\giftCodeManager\\giftCodeSelect.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 199,
+                    "comment": 21,
+                    "filename": "select\\serverManager\\serverSelect.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 180,
+                    "comment": 28,
+                    "filename": "select\\shop\\createSelectedItem.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 73,
+                    "comment": 22,
+                    "filename": "select\\shopManager\\addShopItem.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 87,
+                    "comment": 22,
+                    "filename": "select\\shopManager\\shopItemSelect.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 323,
+                    "comment": 0,
+                    "filename": "translations\\de-DE.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "translations\\emojis.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 323,
+                    "comment": 0,
+                    "filename": "translations\\en-US.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 323,
+                    "comment": 0,
+                    "filename": "translations\\fr-FR.json"
+                }
+            ]
+        }
+    ]
+}
